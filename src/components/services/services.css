@@ -1,0 +1,228 @@
+.service-heading {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+    color: #434d40;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.service {
+    background-color: #f7f2eb;
+    padding-top: 3rem;
+    margin-top: 2rem;
+}
+
+.skills-left h3{
+    color: #8d8f8c
+
+}
+.card {
+    border: 1px solid #434d40;
+    border-radius: 5px;
+    /* padding: 1rem; */
+    margin: 1rem;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    width: 20rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    filter: brightness(90%);
+    background-color: white;
+}
+
+.card-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-info h2 {
+    color: #434d40;
+}
+.slider-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.slider-container div{
+    margin-bottom: 0.5rem;
+}
+.slider-container div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.slider-container div div span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #434d40;
+}
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.skills-left {
+    width: 50%;
+    padding: 3.5rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+.skills-right {
+    width: 50%;
+}
+.number span{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.number img{
+    height: 5rem;
+    width: 5rem;
+  
+}
+.count-info{
+    padding: 1rem;
+    padding-top: 0;
+    color: white;
+}
+.count-info h3{
+    color: #ecdd5e;
+}
+.skill-heading {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+    color: #434d40;
+    font-size: 2.5rem;
+
+}
+
+.slider {
+    /* -webkit-appearance: none; */
+    width: 90%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.waste {
+    background-image: linear-gradient(to right, #ecdd5e 0%, #ecdd5e 90%, #f7f2eb 90%, #f7f2eb 100%);
+
+}
+
+.battries {
+    background-image: linear-gradient(to right, #ecdd5e 0%, #ecdd5e 46%, #f7f2eb 46%, #f7f2eb 100%);
+
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.count-container{
+    background-color: #568c4d;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+}
+.count-card{
+    background-color: #4a6a45;
+    width: 27%;
+    transition: all 0.3s ease-in-out;
+}
+.count-card:hover {
+    transform: scale(1.05); /* Increase the size of the count-card by 5% */
+  }
+.pickup{
+    background-color: #ecdd5e;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+
+}
+.question{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+    color: #434d40;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.call{
+    background-color: #3d473a;
+    height: 3rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    width: 3rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.call:hover{
+    transform: scale(1.09); /* Increase the size of the count-card by 5% */
+
+}
+.fa-phone-volume:hover {
+    color: white !important;
+  }
+  
+  
+@media only screen and (max-width: 720px) {
+
+    .list,
+    .skills, .count-container, .pickup {
+        flex-direction: column;
+        align-items: center;
+    }
+    .count-card{
+        width: 90%;
+        margin-top: 1rem;
+
+    }
+    .skills div{
+        width: 90%;
+    }
+    .skills div img{
+        width: 85%;
+    }
+   
+}
